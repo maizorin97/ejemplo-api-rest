@@ -4,7 +4,7 @@ from peliculas import views
 from rest_framework.routers import DefaultRouter
 
 router = DefaultRouter()
-router.register(r'producto', views.PeliculaViewSet,basename='producto')
+router.register(r'pelicula', views.PeliculaViewSet,basename='pelicula')
 router.register(r'director', views.DirectorViewSet,basename='director')
 
 urlpatterns = [
